@@ -44,3 +44,6 @@ form{
     width: fit-content;
     height: fit-content;
 }
+.container{
+    padding: 16px;
+}
