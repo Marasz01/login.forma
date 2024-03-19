@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Forma</title>
+    <link rel="stylesheet" href="./style2.css" />
+  </head>
+  <body>
+    <form action="/actiion_page.php" style="border: 1px solid #ccc">
+      <div>
+        <h1>Froma za prijavu</h1>
+        <p>Molimo unesite podatke u formu za kreiranje novog računa.</p>
+        <hr />
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Unesite Email" name="email" required />
+
+        <label for="psw"><b>Lozinka</b></label>
+        <input
+          type="password"
+          placeholder="Unesite Lozinku"
+          name="psw"
+          required
+        />
+
+        <label for="psw-repeat"><b>Ponovite lozinku</b></label>
+        <input
+          type="password"
+          placeholder="Ponovite lozinku"
+          name="psw-repeat"
+          required
+        />
+
+        <label>
+          <button>Odustani</button>
+          <button>Prijava</button>
+        </label>
+      </div>
+    </form>
+  </body>
+</html>
